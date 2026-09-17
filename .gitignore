@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Output directories
+outputs/
+
+# Saved model artifacts
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# Data files
+*.csv
+*.txt
+*.npy
+*.npz
+
+# Notebooks and scratch
+*.ipynb
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Optuna
+*.db
+
+!models/
+
+# Per-chromosome SNP name lists (small, needed to know the input column
+# order for stage1_snp_to_idp.py / predict.py) -- tracked on purpose.
+!snp_lists/
+!snp_lists/*.txt
+
+# Real pretrained Stage-1/Stage-2 weights are large (~10GB) -- distributed
+# via the Google Drive link in the README, NOT committed to git.
+models/stage1/
+models/stage2/

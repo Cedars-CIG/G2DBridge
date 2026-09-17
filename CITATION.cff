@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "G2DBridge: A Multimodal Framework Linking Genetics to Disease through Imaging Intermediates"
+type: software
+authors:
+  - family-names: Ozdemir
+    given-names: "Okan Bilge"
+  - family-names: Chen
+    given-names: Raelynn
+  - family-names: Wu
+    given-names: Olivia
+  - family-names: Li
+    given-names: Ruowang
+preferred-citation:
+  type: article
+  title: "G2DBridge: A Multimodal Framework Linking Genetics to Disease through Imaging Intermediates"
+  authors:
+    - family-names: Ozdemir
+      given-names: "Okan Bilge"
+    - family-names: Chen
+      given-names: Raelynn
+    - family-names: Wu
+      given-names: Olivia
+    - family-names: Li
+      given-names: Ruowang
+  journal: "npj Digital Medicine"
+  year: 2026
+  status: in-press
+  notes: "Accepted for publication; DOI and volume/page numbers to be added once assigned."
