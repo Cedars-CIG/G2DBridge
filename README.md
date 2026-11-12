@@ -108,5 +108,3 @@ Outputs `{"ad_risk_probability": [...]}`.
   note    = {In press}
 }
 ```
-
-Paper link / DOI to be added here once assigned.
